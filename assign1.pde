@@ -9,12 +9,12 @@ int lightPos = 240;
 
 void setup() {
   size(600,480,P2D);
-  bgImag = loadImage("bg.jpg");
-  soilImag = loadImage("soil.png");
-  lifeImag = loadImage("life.png");
-  groundhogImag = loadImage("groundhog.png");
-  robotImag = loadImage("robot.png");
-  soldierImag = loadImage("soldier.png");
+  bgImag = loadImage("img/bg.jpg");
+  soilImag = loadImage("img/soil.png");
+  lifeImag = loadImage("img/life.png");
+  groundhogImag = loadImage("img/groundhog.png");
+  robotImag = loadImage("img/robot.png");
+  soldierImag = loadImage("img/soldier.png");
 }
 
 void draw() {
